@@ -1,6 +1,6 @@
 # Info
-Used GTP-NeoX to repro the results from the [TinyStories](https://arxiv.org/pdf/2305.07759.pdf) paper. Re-trained small transformers on their dataset.
-This worked [very nicely](https://huggingface.co/Lawrencium103)!
+Used GTP-NeoX to repro the results from the [TinyStories](https://arxiv.org/pdf/2305.07759.pdf) paper. Re-trained small transformers (between 5 - 17 hours on a single A100) on their dataset.
+This works nicely. Models have been uploaded to my [HuggingFace](https://huggingface.co/Lawrencium103).
 
 [![GitHub issues](https://img.shields.io/github/issues/EleutherAI/gpt-neox)](https://github.com/EleutherAI/gpt-neox/issues)
 [<img src="https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-28.svg" alt="Weights & Biases monitoring" height=20>](https://wandb.ai/eleutherai/neox)
