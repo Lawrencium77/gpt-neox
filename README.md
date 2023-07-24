@@ -1,7 +1,11 @@
+# Info
+Used GTP-NeoX to repro the results from the [TinyStories](https://arxiv.org/pdf/2305.07759.pdf) paper. Re-trained small transformers on their dataset.
+This worked [very nicely](https://huggingface.co/Lawrencium103)!
+
 [![GitHub issues](https://img.shields.io/github/issues/EleutherAI/gpt-neox)](https://github.com/EleutherAI/gpt-neox/issues)
 [<img src="https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-28.svg" alt="Weights & Biases monitoring" height=20>](https://wandb.ai/eleutherai/neox)
 
-# GPT-NeoX
+# GPT-NeoX Fork
 
 This repository records [EleutherAI](https://www.eleuther.ai)'s library for training large-scale language models on GPUs. Our current framework is based on NVIDIA's [Megatron Language Model](https://github.com/NVIDIA/Megatron-LM) and has been augmented with techniques from [DeepSpeed](https://www.deepspeed.ai) as well as some novel optimizations. We aim to make this repo a centralized and accessible place to gather techniques for training large-scale autoregressive language models, and accelerate research into large-scale training.
 
